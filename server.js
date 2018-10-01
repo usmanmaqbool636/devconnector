@@ -19,3 +19,5 @@ app.use('/api/profile',profile);
 app.use('/api/user',user);
 const port = process.env.port || 5000;
 app.listen(port,()=>console.log(`server is runnig on port number ${port}`));
+
+//this is just testing purporses
